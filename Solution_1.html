@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<link rel="stylesheet" href="css/cssTop.css">
+	<link rel="stylesheet" href="css/cssStyleLeft.css">
+	<script type="text/javascript" src="JS/byClass.js"></script>
+	<script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+	<style>
+		.cenInnerRight{
+			padding-bottom:45px;
+			overflow: hidden;
+		}
+		.cenInnerRight img{
+			width:100%;
+			height:500px;
+		}
+        .cenInnerRight figcaption{
+            text-align: center;
+            font-size:25px;
+            line-height:40px;
+            text-shadow: -8px -7px 8px rgba(25,25,200,.5),5px 5px 5px rgba(168,168,168,1),20px 8px 10px rgba(40,20,100,1);
+        }
+        .cenInnerRight figcaption:nth-child(1){
+        padding-top:3%;
+        color:#199bee;
+        }
+        .cenInnerRight figcaption:nth-child(2){
+            color:#6690dd;
+        }
+        .cenInnerRight article{
+            width:100%;
+            font-size:20px;
+            margin-top:20px;
+            text-indent:35px;
+            line-height:30px;
+            color:#0665b5;
+            letter-spacing:3px;
+        }
+        .cenInnerRight img{
+            width:100%;
+            height:500px;
+            margin:80px 0 50px;
+        }
+	</style>
+</head>
+<body>
+<!-- top -->
+	<div class="top">
+		<header>
+			<a href="index.html"><img src="img/logo.png" alt=""></a>
+			<div class="right">
+				<p>24小时服务热线<br><strong>（0371）96596</strong></p>
+				<img src="img/weixin.jpg" alt="">
+			</div>
+		</header>
+		<!-- 下拉菜单Tab切换 -->
+		<nav>
+		<!-- title -->
+			<ul class="title">
+				<li><a href="index.html">首页</a></li>
+				<li><a href="NewsInformation.html" class="selectNews" >新闻资讯</a></li>
+				<li class="xiasanjiao"><a href="ProductIntroduction.html">产品介绍</a></li>
+				<li class="xiasanjiao"><a href="Solution.html" style="font-size:18px;color: #2862a2;font-weight:600;">解决方案</a></li>
+				<li class="xiasanjiao"><a href="CustomerService.html">客户服务</a></li>
+				<li class="xiasanjiao"><a href="DownloadCenter.html">下载中心</a></li>
+				<li class="xiasanjiao"><a href="AboutUs.html">关于我们</a></li>
+			</ul>
+		<!--  导航栏onclick -->
+			<div class="NavContent">
+				<div class="navContentBox">
+			<!-- 产品与服务 -->
+					<div class="nav1 nav">
+						<div class="nav1Inner">
+							<h4><a href="">数字证书的类型</a></h4>
+							<ul>
+								<li><a href="">自然人身份证书</a></li>
+								<li><a target="_blank" href="">机构身份证书</a></li>
+								<li><a target="_blank" href="">设备证书</a></li>
+							</ul>
+						</div>
+						<div class="nav1Inner">
+							<h4><a href="">安全产品</a></h4>
+							<ul>
+							    <li><a href="">密钥管理系统（Xtrust-KMS）</a></li>
+							    <li><a href="">电子签章系统（Xtrust-ESS）</a></li>
+							    <li><a href="">签名验签系统（Xtrust-SVS）</a></li>
+							    <li><a href="">时间戳系统（Xtrust-TSA）</a></li>
+							    <li><a href="">安全中间件（Xtrust-SMA）</a></li>
+							     <li><a href="">移动APP数字证书系统</a></li>
+							</ul>
+						</div>
+						<div class="clear"></div>
+					</div>
+			<!-- 解决方案 -->
+					<div class="nav2 nav">
+						<div class="nav2Left">
+							<h4><a href="">应用案例</a></h4>
+							<div class="nav2Inner">
+								<!-- <a href=""><img alt="" src="" /></a> -->
+								<a class="" href="">税务局网上办税系统解决方案</a>
+							</div>
+							<div class="nav2Inner">
+								<!-- <a href=""><img alt="" src="" /></a> -->
+								<a class="" href="">公共资源交易中心网上招投标解决方案</a>
+							</div>
+							<div class="nav2Inner">
+								<!-- <a href=""><img alt="" src="" /></a> -->
+								<a class="" href="">社会保障网上申报解决方案</a>
+							</div>
+						</div>
+						<div class="nav2Center">
+							<h4><a href="">解决方案</a></h4>
+							<ul>
+							    <li><a href="">证券行业网上开户解决方案</a></li>
+							    <li><a href="">卫生行业应用安全解决方案</a></li>
+							    <li><a href="">保险行业电子保单解决方案</a></li>
+							    <li><a href="">电子政务解决方案</a></li>
+							    <li><a href="">电子商务行业解决方案</a></li>
+							    <li><a href="">银行电子认证解决方案</a></li>
+							</ul>
+						</div>
+						<div class="nav2Right">
+							<h4><a href="">其他行业应用</a></h4>
+							<ul>
+							    <li><a href="">行政审批</a></li>
+							    <li><a href="">网上办公</a></li>
+							    <li><a href="">网上交易</a></li>
+							    <li><a href="">工商管理</a></li>
+							    <li><a href="">卫生行业（医疗系统）</a></li>
+							    <li><a href="">校园信任体系建设</a></li>
+							    <li><a href="">社会保障</a></li>
+							</ul>
+						</div>
+						<div class="clear"></div>
+					</div>
+			<!-- 客户服务 -->
+					<div class="nav3 nav">
+						<div class="">
+							<h4><a href="">数字证书服务支持</a></h4>
+							<ul>
+							    <li><a href="">证书查询</a></li>
+							    <li><a href="">业务流程</a></li>
+							    <li><a href="">常见问题</a></li>
+							    <li><a href="">联系我们</a></li>
+							    <li><a href="">证书服务网点</a></li>
+							</ul>
+						</div>
+					</div>
+			<!-- 下载中心 -->
+				<div class="nav4 nav">
+					<div class="">
+			        	<h4><a href="">小精灵版本下载</a></h4>
+			        	<h4><a target="_blank" href="">下载中心</a></h4>
+			        </div>
+				</div>
+			<!-- 关于我们 -->
+					<div class="nav5 nav">
+			            <div class="">
+			                <h4><a href="">公司简介</a></h4>
+			                <h4><a href="">发展历程</a></h4>
+			                <h4><a href="">技术力量</a></h4>
+			                <h4><a href="">诚聘精英</a></h4>
+			            </div>
+					</div>
+				</div>
+			</div>
+			<!--  //导航条  点击弹窗 end   -->
+		</nav>
+	</div>
+<!-- center -->
+	<section class="center">
+		<div class="centerImgTop"><img src="img/cen1.png" alt=""></div>
+		<div class="cenInner">
+			<aside class="cenInnerLeft" style="width: 23%;">
+				<h2><a href="Solution.html">解决方案</a></h2>
+				<figcaption><a href="Solution.html">Solution</a><figcaption>
+				<div>
+					<ul>
+						<li style="text-align: left;color: #ccc;">应用案例</li>
+						<li><a href="Solution_1.html">税务局网上办税系统</a></li>
+						<li><a href="">公共资源交易中心网上招投标</a></li>
+						<li><a href="">社会保障网上申报</a></li>
+						<li style="text-align: left;color: #ccc;">解决方案</li>
+						<li><a href="">证券行业网上开户</a></li>
+						<li><a href="">卫生行业应用安全</a></li>
+						<li><a href="">保险行业电子保单</a></li>
+						<li><a href="">电子政务</a></li>
+						<li><a href="">电子商务行业</a></li>
+						<li><a href="">银行电子认证</a></li>
+						<li style="text-align: left;"><a href="">其他行业</a></li>
+					</ul>
+				</div>
+			</aside>
+			<figure class="cenInnerRight" style="width: 74%;">
+				<figcaption>税务局网上办税系统解决方案</figcaption>
+            	<figcaption>The Solution Tax Online Tax System</figcaption>
+            	<img src="img/picture/p7.png" alt="" style="margin-bottom: 5px;">
+            	<p style="text-align: center;margin-bottom:50px;">系统架构图</p>
+            	<article>为解决网上办税存在的信息安全问题，信安CA数字证书的数字签名技术可以保证上传数据的完整性和用户行为的不可抵赖性。采用CA认证后，纳税人可以通过使用标识其身份的数字证书登录河南省国地税网上办税服务系统，安全地进行网上纳税申报和办理其他涉税事项。当前，河南省地方税务局网上办税系统用户总量27万户，并发处理能力为11.5万。系统自2012年8月投入使用以来，系统运行稳定，未出现故障。</article>
+			</figure>
+		</div>
+	</section>
+<!-- 底部 -->
+    <img src="img/totop(1).png" alt="" class="totop">
+    <div class="footer">
+        <div class="footer1">
+            <span>河南省信息安全电子认证中心 --</span>
+            <span>河南省信息化发展有限公司</span>
+            <span>客服电话：
+                <span class="inn1">（0371）96596</span>
+            </span>
+        </div>
+        <div class="footerImg">
+        	<img src="img/logo2.png" alt="">
+        	<img src="img/weixin.jpg" alt="">
+        </div>
+        <p class="footer3">
+            <a href="index.html">返回首页</a>
+            |
+            <a href="NewsInformation.html">新闻资讯</a>
+            |
+            <a href="">产品介绍</a>
+            |
+            <a href="">解决方案</a>
+            |
+            <a href="">客户服务</a>
+            |
+            <a href="">下载中心</a>
+            |
+            <a href="">关于我们</a>
+        </p>
+        <p class="footer4"> CopyRight © 2017 hnxaca.com.All&nbspRights&nbspReserved.&nbsp豫ICP备14012421号-1&nbsp版权所有</p>
+    </div>
+</body>
+<script type="text/javascript" src="JS/jsXiala_style.js" ></script>
+</html>

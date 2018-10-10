@@ -1,0 +1,73 @@
+		body{
+			position: relative;
+		}
+		.center{
+			width: 100%;
+			margin-top:135px;
+		/*	border-top:1px solid #fff;*/
+			overflow: hidden;
+		}
+		.center .centerImgTop{
+			width: 100%;
+			height:305px;
+			position: absolute;z-index:-2;
+		}
+		.center .centerImgTop img{
+			width: 100%;
+			height:100%;
+		}
+		.cenInner{
+			width:80%;
+			margin:255px auto 0;
+		}
+		.cenInnerLeft{
+			width:20%;
+			padding:20px 10px 30px;
+			background: rgba(38,78,166,.95);
+			line-height:40px;
+			float: left;
+			box-shadow:0px 1px 1px 3px rgba(40,98,162,.3);
+		}
+		.cenInnerLeft h2{
+			line-height:50px;
+			border-bottom:1px solid #fff;
+		}
+		.cenInnerLeft a:hover{
+			color: #53dcf5;
+		}
+		.cenInnerLeft a{
+			color: #fff;
+		}
+		.cenInnerLeft figcaption{
+			text-align: right;
+			color: #fff;
+		}
+		.cenInnerLeft div{
+			width:90%;
+			padding:10px 5% 30px;
+			/*height:200px;*/
+			margin-top:30px auto 0;
+			background: #305dc4;
+		}
+		.cenInnerLeft li{
+			line-height:40px;
+			text-align: center;
+			font-size:16px;
+			border-bottom:1px solid #fff;
+		}
+		.cenInnerLeft li a{
+			display: block;
+			color: #fff;
+			line-height:40px;
+		}
+		.cenInnerLeft li a:hover{
+			color: #53dcf5;
+			line-height:40px;
+			font-size:18px;
+		}
+/*cenInnerRight*/
+		.cenInnerRight{
+			width:77%;
+			float: right;
+			margin-top:100px;
+		}
